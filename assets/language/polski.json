@@ -1,0 +1,94 @@
+{
+	"lang": "pl",
+	"dir": "ltr",
+	"disclaimer": {
+		"title": "Ważna informacja",
+		"p1": "To narzędzie służy wyłącznie celom edukacyjnym i badawczym.",
+		"p2_prefix": "Modyfikujesz własne urządzenie.",
+		"p2_suffix": " Zmiany mogą mieć konsekwencje techniczne i prawne. Przeczytaj poniższe punkty uważnie.",
+		"warning_title": "Co powinieneś wiedzieć:",
+		"w1": "Może unieważnić gwarancję producenta",
+		"w2": "Może naruszać lokalne przepisy i regulacje",
+		"w3": "Zmodyfikowane urządzenia mogą być nielegalne w użytkowaniu",
+		"w4": "Przejmujesz pełną odpowiedzialność za wszelkie szkody i konsekwencje prawne",
+		"license": "Brak użytku komercyjnego. Licencja: CC-BY-NC-SA 4.0.",
+		"warranty": "Oprogramowanie dostarczane jest bez jakiejkolwiek gwarancji. Autorzy nie ponoszą odpowiedzialności.",
+		"accept": "Akceptuję",
+		"decline": "Odrzucam",
+		"closed": "Zamknięto. Odśwież stronę, aby kontynuować."
+	},
+	"nav": {
+		"connect": "Połącz",
+		"firmware": "Firmware",
+		"options": "Opcje",
+		"actions": "Uruchom",
+		"log": "Protokół"
+	},
+	"connect": {
+		"title": "Podłącz urządzenie",
+		"addr": "0x01",
+		"status_disconnected": "Brak połączenia z urządzeniem",
+		"btn_webserial": "Połącz Web Serial",
+		"btn_webserial_hint": "Chrome / Edge",
+		"btn_webserial_title": "Wymaga przeglądarki Chrome lub Edge ze sterownikiem CH340, FT232 lub CP2102",
+		"btn_webusb": "Połącz WebUSB",
+		"btn_webusb_hint": "Eksperymentalne",
+		"btn_webusb_title": "Eksperymentalne: Bezpośredni sterownik CH340 przez WebUSB, działa na Androidzie",
+		"btn_disconnect": "Rozłącz",
+		"btn_disconnect_aria": "Rozłącz urządzenie",
+		"btn_test": "Test",
+		"btn_test_aria": "Testuj połączenie",
+		"alert_webusb": "<strong>WebUSB</strong> obsługuje CH340/CH341A, FT232R, CP210x i PL2303. <strong>Android:</strong> Podłącz adapter OTG, następnie kliknij WebUSB. <strong>Windows:</strong> W przypadku błędu zmień sterownik na WinUSB przez <a href=\"https://zadig.akeo.ie/\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit\">Zadig</a>."
+	},
+	"firmware": {
+		"title": "Wgraj firmware",
+		"addr": "0x02",
+		"drop_label": "Upuść plik tutaj lub wybierz",
+		"drop_hint": ".bin, .zip lub .enc",
+		"input_aria": "Wybierz plik firmware",
+		"global_drop_title": "GOTÓW DO FLASHOWANIA",
+		"global_drop_msg": "Upuść plik firmware, aby rozpocząć"
+	},
+	"options": {
+		"title": "Ustawienia",
+		"addr": "0x03",
+		"sim_label": "Tryb symulacji",
+		"sim_sub": "Nie wymaga urządzenia. Idealny do testów.",
+		"sim_aria": "Gdy aktywny, nie jest potrzebne prawdziwe urządzenie.",
+		"debug_label": "Wyjście debug",
+		"debug_sub": "Szczegółowe logowanie TX/RX.",
+		"debug_aria": "Wyświetla wszystkie dane wysyłane i odbierane w protokole.",
+		"note": "Wyłącz tryb symulacji przed rzeczywistym flashowaniem. Aktywne wyjście debug może zmniejszyć prędkość transferu na starszych urządzeniach."
+	},
+	"actions": {
+		"title": "Uruchom flash",
+		"addr": "0x04",
+		"btn_flash": "Flashuj firmware",
+		"btn_flash_aria": "Wgraj firmware na urządzenie",
+		"btn_abort": "Przerwij operację",
+		"btn_abort_aria": "Przerwij operację flashowania",
+		"baud_info": "Baud: 19200 · 8N1 · Bez kontroli przepływu",
+		"progress_ready": "Gotowy",
+		"progress_aria": "Postęp flashowania"
+	},
+	"log": {
+		"title": "Dziennik systemowy",
+		"btn_clear": "Wyczyść",
+		"btn_clear_aria": "Wyczyść dziennik",
+		"btn_export": "Eksportuj",
+		"btn_export_aria": "Eksportuj pełny dziennik do pliku",
+		"log_aria": "Wyjście dziennika systemowego"
+	},
+	"header": {
+		"status_idle": "● IDLE",
+		"music_toggle": "Muzyka wł/wył (prawy przycisk: załaduj MP3)",
+		"lang_group_aria": "Wybierz język"
+	},
+	"footer": {
+		"copyright": "BW Flasher Web — ScooterTeam © 2024–2025",
+		"license_text": "CC BY-NC-SA 4.0",
+		"designed_by": "Projekt",
+		"required": "Wymagane Chrome / Edge / Opera",
+		"github": "GitHub"
+	}
+}

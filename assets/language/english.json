@@ -1,0 +1,94 @@
+{
+	"lang": "en",
+	"dir": "ltr",
+	"disclaimer": {
+		"title": "Important Notice",
+		"p1": "This tool is for educational and research purposes only.",
+		"p2_prefix": "You are modifying your own device.",
+		"p2_suffix": " Modifications may have technical and legal consequences. Please read the following points carefully.",
+		"warning_title": "What you need to know:",
+		"w1": "May void your manufacturer warranty",
+		"w2": "May violate local laws and regulations",
+		"w3": "Modified devices may be illegal to operate",
+		"w4": "You assume full responsibility for all damages and legal consequences",
+		"license": "No commercial use. Licensed under CC-BY-NC-SA 4.0.",
+		"warranty": "Software is provided without any warranty. Authors accept no liability.",
+		"accept": "Accept",
+		"decline": "Decline",
+		"closed": "Closed. Please reload the page to continue."
+	},
+	"nav": {
+		"connect": "Connect",
+		"firmware": "Firmware",
+		"options": "Options",
+		"actions": "Execute",
+		"log": "Log"
+	},
+	"connect": {
+		"title": "Connect Device",
+		"addr": "0x01",
+		"status_disconnected": "No device connected",
+		"btn_webserial": "Connect Web Serial",
+		"btn_webserial_hint": "Chrome / Edge",
+		"btn_webserial_title": "Requires Chrome or Edge with driver for CH340, FT232 or CP2102",
+		"btn_webusb": "Connect WebUSB",
+		"btn_webusb_hint": "Experimental",
+		"btn_webusb_title": "Experimental: Direct CH340 driver via WebUSB, works on Android",
+		"btn_disconnect": "Disconnect",
+		"btn_disconnect_aria": "Disconnect from device",
+		"btn_test": "Test",
+		"btn_test_aria": "Test connection",
+		"alert_webusb": "<strong>WebUSB</strong> supports CH340/CH341A, FT232R, CP210x and PL2303. <strong>Android:</strong> Connect OTG adapter, then click WebUSB. <strong>Windows:</strong> On error, switch driver to WinUSB via <a href=\"https://zadig.akeo.ie/\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit\">Zadig</a>."
+	},
+	"firmware": {
+		"title": "Load Firmware",
+		"addr": "0x02",
+		"drop_label": "Drop file here or select",
+		"drop_hint": ".bin, .zip or .enc",
+		"input_aria": "Select firmware file",
+		"global_drop_title": "READY TO FLASH",
+		"global_drop_msg": "Release your firmware file to begin"
+	},
+	"options": {
+		"title": "Settings",
+		"addr": "0x03",
+		"sim_label": "Simulation Mode",
+		"sim_sub": "No device required. Ideal for testing.",
+		"sim_aria": "When active, no real device is needed.",
+		"debug_label": "Debug Output",
+		"debug_sub": "Verbose TX/RX logging.",
+		"debug_aria": "Shows all send and receive data in the log.",
+		"note": "Disable simulation mode before a real flash operation. Active debug output may reduce transfer speed on older devices."
+	},
+	"actions": {
+		"title": "Start Flash",
+		"addr": "0x04",
+		"btn_flash": "Flash Firmware",
+		"btn_flash_aria": "Flash firmware to device",
+		"btn_abort": "Abort Operation",
+		"btn_abort_aria": "Abort flash operation",
+		"baud_info": "Baud: 19200 · 8N1 · No flow control",
+		"progress_ready": "Ready",
+		"progress_aria": "Flash progress"
+	},
+	"log": {
+		"title": "System Log",
+		"btn_clear": "Clear",
+		"btn_clear_aria": "Clear log",
+		"btn_export": "Export",
+		"btn_export_aria": "Export full log to file",
+		"log_aria": "System log output"
+	},
+	"header": {
+		"status_idle": "● IDLE",
+		"music_toggle": "Toggle music (right-click to load MP3)",
+		"lang_group_aria": "Choose language"
+	},
+	"footer": {
+		"copyright": "BW Flasher Web — ScooterTeam © 2024–2025",
+		"license_text": "CC BY-NC-SA 4.0",
+		"designed_by": "Designed by",
+		"required": "Chrome / Edge / Opera required",
+		"github": "GitHub"
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"lang": "de",
+	"dir": "ltr",
+	"disclaimer": {
+		"title": "Wichtiger Hinweis",
+		"p1": "Dieses Tool dient ausschließlich Bildungs- und Forschungszwecken.",
+		"p2_prefix": "Sie modifizieren Ihr eigenes Gerät.",
+		"p2_suffix": " Änderungen können technische und rechtliche Konsequenzen haben. Bitte lesen Sie die folgenden Punkte sorgfältig.",
+		"warning_title": "Was Sie wissen müssen:",
+		"w1": "Kann die Herstellergarantie erlöschen lassen",
+		"w2": "Kann gegen lokale Gesetze und Vorschriften verstoßen",
+		"w3": "Modifizierte Geräte können illegal im Betrieb sein",
+		"w4": "Sie übernehmen die alleinige Verantwortung für Schäden und rechtliche Folgen",
+		"license": "Keine kommerzielle Nutzung. Lizenziert unter CC-BY-NC-SA 4.0.",
+		"warranty": "Die Software wird ohne jede Gewährleistung bereitgestellt. Die Autoren haften nicht.",
+		"accept": "Akzeptieren",
+		"decline": "Ablehnen",
+		"closed": "Geschlossen. Bitte laden Sie die Seite neu, um fortzufahren."
+	},
+	"nav": {
+		"connect": "Verbinden",
+		"firmware": "Firmware",
+		"options": "Optionen",
+		"actions": "Ausführen",
+		"log": "Protokoll"
+	},
+	"connect": {
+		"title": "Gerät verbinden",
+		"addr": "0x01",
+		"status_disconnected": "Kein Gerät verbunden",
+		"btn_webserial": "Web Serial verbinden",
+		"btn_webserial_hint": "Chrome / Edge",
+		"btn_webserial_title": "Erfordert Chrome oder Edge mit Treiber für CH340, FT232 oder CP2102",
+		"btn_webusb": "WebUSB verbinden",
+		"btn_webusb_hint": "Experimentell",
+		"btn_webusb_title": "Experimentell: Direkter CH340-Treiber über WebUSB, funktioniert auf Android",
+		"btn_disconnect": "Trennen",
+		"btn_disconnect_aria": "Verbindung zum Gerät trennen",
+		"btn_test": "Test",
+		"btn_test_aria": "Verbindung testen",
+		"alert_webusb": "<strong>WebUSB</strong> unterstützt CH340/CH341A, FT232R, CP210x und PL2303. <strong>Android:</strong> OTG-Adapter anschließen, dann WebUSB wählen. <strong>Windows:</strong> Bei Problemen den Treiber mit <a href=\"https://zadig.akeo.ie/\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit\">Zadig</a> auf WinUSB umstellen."
+	},
+	"firmware": {
+		"title": "Firmware laden",
+		"addr": "0x02",
+		"drop_label": "Datei ablegen oder auswählen",
+		"drop_hint": ".bin, .zip oder .enc",
+		"input_aria": "Firmware-Datei auswählen",
+		"global_drop_title": "BEREIT ZUM FLASHEN",
+		"global_drop_msg": "Firmware-Datei zum Starten loslassen"
+	},
+	"options": {
+		"title": "Einstellungen",
+		"addr": "0x03",
+		"sim_label": "Simulationsmodus",
+		"sim_sub": "Kein Gerät erforderlich. Ideal zum Testen.",
+		"sim_aria": "Wenn aktiv, wird kein echtes Gerät benötigt.",
+		"debug_label": "Debug-Ausgabe",
+		"debug_sub": "Ausführliche TX/RX-Protokollierung.",
+		"debug_aria": "Zeigt alle Sende- und Empfangsdaten im Protokoll an.",
+		"note": "Deaktivieren Sie den Simulationsmodus vor dem echten Flash-Vorgang. Aktive Debug-Ausgabe kann auf älteren Geräten die Übertragungsgeschwindigkeit verringern."
+	},
+	"actions": {
+		"title": "Flash starten",
+		"addr": "0x04",
+		"btn_flash": "Firmware flashen",
+		"btn_flash_aria": "Firmware auf das Gerät flashen",
+		"btn_abort": "Vorgang abbrechen",
+		"btn_abort_aria": "Flash-Vorgang abbrechen",
+		"baud_info": "Baud: 19200 · 8N1 · Keine Flusskontrolle",
+		"progress_ready": "Bereit",
+		"progress_aria": "Flash-Fortschritt"
+	},
+	"log": {
+		"title": "Systemprotokoll",
+		"btn_clear": "Leeren",
+		"btn_clear_aria": "Protokoll leeren",
+		"btn_export": "Export",
+		"btn_export_aria": "Vollständiges Protokoll in Datei exportieren",
+		"log_aria": "Systemprotokoll-Ausgabe"
+	},
+	"header": {
+		"status_idle": "● IDLE",
+		"music_toggle": "Musik ein/aus (Rechtsklick: MP3 laden)",
+		"lang_group_aria": "Sprache wählen"
+	},
+	"footer": {
+		"copyright": "BW Flasher Web — ScooterTeam © 2024–2025",
+		"license_text": "CC BY-NC-SA 4.0",
+		"designed_by": "Gestaltet von",
+		"required": "Chrome / Edge / Opera erforderlich",
+		"github": "GitHub"
+	}
+}

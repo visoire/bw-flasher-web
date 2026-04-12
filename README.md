@@ -1,4 +1,4 @@
-# bw-flasher-web
+# BW FLASHER WEB
 
 A fully browser-based firmware flasher for Brightway and LEQI scooter controllers over UART. No Python, no pip, no Node.js, no installation of any kind. The entire application runs as a single HTML page directly in the browser using Web Serial and WebUSB APIs.
 

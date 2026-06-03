@@ -3,6 +3,8 @@
 A fully browser-based firmware flasher for Brightway and LEQI scooter controllers over UART. No Python, no pip, no Node.js, no installation of any kind. The entire application runs as a single HTML page directly in the browser using Web Serial and WebUSB APIs.
 
 Ported from [bw-flasher](https://github.com/scooterteam/bw-flasher) by ScooterTeam.
+This source code is being currently used in https://www.visoire.com/xiaomi/setup/ and https://www.visoire.com/xiaomi/flasher/ and https://www.visoire.com/xiaomi/patcher/
+
 
 ---
 

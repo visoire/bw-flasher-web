@@ -4,6 +4,7 @@ A fully browser-based firmware flasher for Brightway and LEQI scooter controller
 
 Ported from [bw-flasher](https://github.com/scooterteam/bw-flasher) by ScooterTeam.
 This source code is being currently used in https://www.visoire.com/xiaomi/setup/ and https://www.visoire.com/xiaomi/flasher/ and https://www.visoire.com/xiaomi/patcher/
+vivalet.xyz/xiaomi
 
 
 ---
